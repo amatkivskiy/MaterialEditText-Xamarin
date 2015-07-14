@@ -55,6 +55,9 @@
     <Reference Include="NineOldAndroids">
       <HintPath>..\..\solutions\packages\Xamarin.NineOldAndroids.0.0.1\lib\MonoAndroid\NineOldAndroids.dll</HintPath>
     </Reference>
+    <Reference Include="materialedittext-2.1.4">
+      <HintPath>..\..\solutions\packages\Rengwuxian.MaterialEditText.Xamarin.Android.2.1.4\lib\MonoAndroid\materialedittext-2.1.4.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -89,11 +92,5 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\fonts\Roboto-LightItalic.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\library\library.csproj">
-      <Project>{7A8AAF72-4739-4E08-9818-775D7EAA0F67}</Project>
-      <Name>library</Name>
-    </ProjectReference>
   </ItemGroup>
 </Project>
