@@ -1,0 +1,27 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <!-- Fixed namespaces namings. -->
+  <attr name="managedName" path="/api/package[@name='com.rengwuxian.materialedittext']">Rengwuxian.MaterialEditText</attr>
+  <attr name="managedName" path="/api/package[@name='com.rengwuxian.materialedittext.validation']">Rengwuxian.MaterialEditText.Validations</attr>
+
+  <!-- Removed deprecated methods. -->
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialMultiAutoCompleteTextView']/method[@name='validate' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.CharSequence']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialMultiAutoCompleteTextView']/method[@name='isValid' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialEditText']/method[@name='validate' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.CharSequence']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialEditText']/method[@name='isValid' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialAutoCompleteTextView']/method[@name='validate' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='java.lang.CharSequence']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialAutoCompleteTextView']/method[@name='isValid' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialMultiAutoCompleteTextView']/method[@name='setPadding' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialEditText']/method[@name='setPadding' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"/>
+  <remove-node path="/api/package[@name='com.rengwuxian.materialedittext']/class[@name='MaterialAutoCompleteTextView']/method[@name='setPadding' and count(parameter)=4 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int']]"/>
+
+  <!-- Fixed "warning BG8401: Skipping Rengwuxian.MaterialEditText.Validations.METValidator.ErrorMessage, due to a duplicate field, method or nested type name." -->
+  <attr name="managedName" path="/api/package[@name='com.rengwuxian.materialedittext.validation']/class[@name='METValidator']/field[@name='errorMessage']">ErrorMessageField</attr>
+
+</metadata>

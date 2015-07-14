@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialEditText-Xamarin-Sample", "..\samples\MaterialEditText-Xamarin-Sample\MaterialEditText-Xamarin-Sample.csproj", "{7074DE0D-E393-4216-8753-83CB063C4FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "library", "..\library\library.csproj", "{7A8AAF72-4739-4E08-9818-775D7EAA0F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7074DE0D-E393-4216-8753-83CB063C4FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7074DE0D-E393-4216-8753-83CB063C4FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7074DE0D-E393-4216-8753-83CB063C4FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7074DE0D-E393-4216-8753-83CB063C4FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8AAF72-4739-4E08-9818-775D7EAA0F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8AAF72-4739-4E08-9818-775D7EAA0F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8AAF72-4739-4E08-9818-775D7EAA0F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8AAF72-4739-4E08-9818-775D7EAA0F67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		version = 2.1.4
+	EndGlobalSection
+EndGlobal
