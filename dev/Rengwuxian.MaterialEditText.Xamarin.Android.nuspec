@@ -7,7 +7,7 @@
 		<authors>Andriy Matkivskiy</authors>
 		<owners>amatkivskiy</owners>
 		<projectUrl>https://github.com/amatkivskiy/MaterialEditText-Xamarin</projectUrl>
-		<iconUrl>http://s12.postimg.org/eeueebxyh/package_logo.png</iconUrl>
+		<iconUrl>https://raw.githubusercontent.com/amatkivskiy/MaterialEditText-Xamarin/master/dev/package_logo.png/iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>C# bindings for MaterialEditText library.</description>
 		<summary>Xamarin binding for MaterialEditText https://github.com/rengwuxian/MaterialEditText</summary>
