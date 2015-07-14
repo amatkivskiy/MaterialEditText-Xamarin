@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Rengwuxian.MaterialEditText.Xamarin.Android</id>
+		<version>2.1.4</version>
+		<title>MaterialEditText for Xamarin.Android</title>
+		<authors>Andriy Matkivskiy</authors>
+		<owners>amatkivskiy</owners>
+		<projectUrl>https://github.com/amatkivskiy/MaterialEditText-Xamarin</projectUrl>
+		<iconUrl>http://s12.postimg.org/eeueebxyh/package_logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>C# bindings for MaterialEditText library.</description>
+		<summary>Xamarin binding for MaterialEditText https://github.com/rengwuxian/MaterialEditText</summary>
+		<tags>Android Xamarin EditText Material</tags>
+		<releaseNotes>Initial release.</releaseNotes>
+		<dependencies>
+			<dependency id="Xamarin.Android.Support.v4" version="22.2.0.0"/>
+			<dependency id="Xamarin.Android.Support.v7.AppCompat" version="22.2.0.0"/>
+			<dependency id="Xamarin.NineOldAndroids" version="0.0.1" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="..\library\bin\Release\materialedittext-2.1.4.dll" target="lib\MonoAndroid\"/>
+	</files>
+</package>
